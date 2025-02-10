@@ -25,7 +25,7 @@ function linearSearch(){
 }
 
 
-
+console.log("small change code");
 console.log("this is the linear search");
 console.log(linearSearch());
 
