@@ -5,6 +5,8 @@ class Node{
     }
 }
 
+console.log("from vim");
+
 class LinkedList {
     constructor() {
         this.head = null
@@ -120,7 +122,7 @@ class LinkedList {
 
     isPalindrome = function() {
         let string = '';
-        let rev = ''
+        let rev = ''    
         let node = this.head;
         while(node){
             string += node.val;

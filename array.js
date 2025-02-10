@@ -15,6 +15,21 @@ function fibRecursion(n) {
     return fibRecursion(n - 1) + fibRecursion(n - 2);
 };
 
+function linearSearch(){
+	let arr = [1,2,3,4,5];
+	let length = arr.length;
+	for(let i=0; i<length; i++){
+		console.log(arr[i]);
+	}
+	return arr;
+}
+
+console.log("testing for the git");
+
+console.log("this is the linear search");
+console.log(linearSearch());
+
+
 
 function maxProfit(prices) {
     let min = prices[0];
