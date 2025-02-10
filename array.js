@@ -24,7 +24,7 @@ function linearSearch(){
 	return arr;
 }
 
-console.log("testing for the git");
+
 
 console.log("this is the linear search");
 console.log(linearSearch());
